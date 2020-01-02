@@ -1,0 +1,6 @@
+<QueryList>
+  <Query Id="0" Path="System">
+    <Select Path="Microsoft-Windows-NetworkProfile/Operational">*[System[(EventID=10000)]] and *[EventData[(Data[@Name="Name"]="FRITZ!Box 6490 Cable")]]
+</Select>
+  </Query>
+</QueryList>
